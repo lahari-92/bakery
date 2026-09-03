@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Custom Orders | Lahari's Crumb & Co.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            <h2>Lahari's Crumb & Co.</h2>
+            <span>Since 2007</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="bakers.html">Our Bakers</a>
+            <a href="custom-orders.html" class="active">Custom Orders</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="custom-orders.html" class="nav-button">Order Now</a>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="custom-hero">
+
+        <div class="custom-hero-content">
+
+            <p class="section-label">MADE ESPECIALLY FOR YOU</p>
+
+            <h1>
+                Your Idea.<br>
+                <span>Our Creation.</span>
+            </h1>
+
+            <p>
+                Tell us about your dream cake and our bakers
+                will turn your idea into something delicious.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CUSTOM ORDER CONTENT -->
+    <section class="custom-order-section">
+
+        <div class="custom-order-intro">
+
+            <p class="section-label">CUSTOM CAKES</p>
+
+            <h2>Let's Create Something Special</h2>
+
+            <p>
+                Whether it's a birthday, anniversary, wedding or
+                any special celebration, we can create a cake
+                designed especially for your occasion.
+            </p>
+
+        </div>
+
+
+        <div class="custom-order-layout">
+
+
+            <!-- INFORMATION -->
+            <div class="custom-info">
+
+                <h3>What Can We Create?</h3>
+
+                <div class="custom-option">
+                    <span>🎂</span>
+
+                    <div>
+                        <h4>Theme Cakes</h4>
+                        <p>
+                            Cakes designed around your favourite
+                            themes, colours and ideas.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="custom-option">
+                    <span>📸</span>
+
+                    <div>
+                        <h4>Photo Cakes</h4>
+                        <p>
+                            Add a special photograph to make
+                            your celebration even more personal.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="custom-option">
+                    <span>💍</span>
+
+                    <div>
+                        <h4>Wedding Cakes</h4>
+                        <p>
+                            Elegant multi-tier cakes for weddings
+                            and important celebrations.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="custom-option">
+                    <span>✨</span>
+
+                    <div>
+                        <h4>Special Occasions</h4>
+                        <p>
+                            Birthday, anniversary, graduation or
+                            any occasion worth celebrating.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- FORM -->
+            <div class="custom-form-card">
+
+                <h3>Request a Custom Cake</h3>
+
+                <p class="form-note">
+                    Fill in the details below and we'll get
+                    back to you with available options.
+                </p>
+
+
+                <form id="customOrderForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="customerName">
+                                Your Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="customerName"
+                                name="customerName"
+                                placeholder="Enter your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter phone number"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="occasion">
+                                Occasion
+                            </label>
+
+                            <select id="occasion" name="occasion" required>
+
+                                <option value="">
+                                    Select occasion
+                                </option>
+
+                                <option value="birthday">
+                                    Birthday
+                                </option>
+
+                                <option value="anniversary">
+                                    Anniversary
+                                </option>
+
+                                <option value="wedding">
+                                    Wedding
+                                </option>
+
+                                <option value="graduation">
+                                    Graduation
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="servings">
+                                Number of People
+                            </label>
+
+                            <select id="servings" name="servings" required>
+
+                                <option value="">
+                                    Select size
+                                </option>
+
+                                <option value="small">
+                                    4–6 people
+                                </option>
+
+                                <option value="medium">
+                                    8–12 people
+                                </option>
+
+                                <option value="large">
+                                    15–20 people
+                                </option>
+
+                                <option value="extra-large">
+                                    25+ people
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="flavour">
+                                Preferred Flavour
+                            </label>
+
+                            <select id="flavour" name="flavour">
+
+                                <option value="">
+                                    Select flavour
+                                </option>
+
+                                <option value="chocolate">
+                                    Chocolate
+                                </option>
+
+                                <option value="vanilla">
+                                    Vanilla
+                                </option>
+
+                                <option value="red-velvet">
+                                    Red Velvet
+                                </option>
+
+                                <option value="butterscotch">
+                                    Butterscotch
+                                </option>
+
+                                <option value="fruit">
+                                    Fresh Fruit
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="date">
+                                Event Date
+                            </label>
+
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="cakeDetails">
+                            Tell Us About Your Cake
+                        </label>
+
+                        <textarea
+                            id="cakeDetails"
+                            name="cakeDetails"
+                            rows="5"
+                            placeholder="Describe your preferred design, colours, message, theme, etc."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="form-submit">
+                        Send Custom Order Request
+                    </button>
+
+                    <p id="formMessage" class="form-message"></p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- NOTE -->
+    <section class="custom-note">
+
+        <div>
+
+            <span>✦</span>
+
+            <h2>
+                Every celebration deserves
+                something made just for you.
+            </h2>
+
+            <p>
+                Our team will contact you after receiving your
+                request to discuss the design, availability and
+                final pricing.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-brand">
+
+            <h2>Lahari's Crumb & Co.</h2>
+
+            <p>
+                Baked with Tradition,<br>
+                Served with Love.
+            </p>
+
+            <span>Since 2007</span>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="bakers.html">Our Bakers</a>
+            <a href="custom-orders.html">Custom Orders</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <div class="footer-contact">
+
+            <h3>Visit Us</h3>
+
+            <p>📍 Your Bakery Address</p>
+            <p>📞 +91 XXXXX XXXXX</p>
+            <p>✉️ hello@lahariscrumbco.com</p>
+
+        </div>
+
+    </footer>
+
+
+    <div class="copyright">
+
+        <p>
+            © 2026 Lahari's Crumb & Co. All Rights Reserved.
+        </p>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
